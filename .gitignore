@@ -4,3 +4,9 @@ venv/
 .csv
 .png
 .txt
+!ARS_early.bed
+!ARS_late.bed
+!ARS_SGD.bed
+!SGD_ARS_annot_only_early_late.csv
+!SGD_R64-3-1_genome.fna
+!requirements.txt
