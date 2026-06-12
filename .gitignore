@@ -1,4 +1,6 @@
-venv/
+.venv/
+results/
+resources/SGD_R64-3-1_genome.fna.fai
 .DS_Store
 .bed
 .csv
