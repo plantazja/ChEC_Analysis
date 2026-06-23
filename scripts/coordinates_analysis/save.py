@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import itertools
 
-
 def save_overlaps(overlaps_df, output_dir):
     sample_names = list(overlaps_df.columns[4:]) 
     sample_names = [n.replace('.bed', '') for n in sample_names]
