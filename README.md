@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 #### b) Load data in convenient folder structure
 I recommend loading .bed and .wig files using the following structure
-
+```bash
 ChEC_Data/
 ├── homer_peaks_merged/
 │   └── sample1.bed
@@ -32,7 +32,7 @@ ChEC_Data/
 │   │   └── sample1_spikein_C.bed
 │   └── spikein_mean/
 │       └── sample1_spikein_mean.bed
-
+```
 #### c) Run notebooks/compare_coordinates/1_compare_peaks.ipynb
 
 #### d) Run notebooks/compare_signals/2_calculate_signals.ipynb
