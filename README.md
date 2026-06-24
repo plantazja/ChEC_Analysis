@@ -9,9 +9,9 @@ ChEC_Data/
 │   └── sample1.bed
 ├── wig/
 │   ├── cpm_mean/
-│   │   └── sample1_cpm_mean.bed
+│   │   └── sample1_cpm_mean.wig
 │   └── spikein_mean/
-│       └── sample1_spikein_mean.bed
+│       └── sample1_spikein_mean.wig
 ```
 #### b) Download version controlled repository
 ```bash
