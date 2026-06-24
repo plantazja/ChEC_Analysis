@@ -15,21 +15,9 @@ I recommend loading .bed and .wig files using the following structure
 ChEC_Data/
 ├── homer_peaks_merged/
 │   └── sample1.bed
-├── homer_peaks_processed/
-│   ├── sample1_A.bed
-│   ├── sample1_B.bed
-│   └── sample1_C.bed
 ├── wig/
-│   ├── cpm/
-│   │   ├── sample1_cpm_A.bed
-│   │   ├── sample1_cpm_B.bed
-│   │   └── sample1_cpm_C.bed
 │   ├── cpm_mean/
 │   │   └── sample1_cpm_mean.bed
-│   ├── spikein/
-│   │   ├── sample1_spikein_A.bed
-│   │   ├── sample1_spikein_B.bed
-│   │   └── sample1_spikein_C.bed
 │   └── spikein_mean/
 │       └── sample1_spikein_mean.bed
 ```
