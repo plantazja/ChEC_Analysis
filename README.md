@@ -1,15 +1,7 @@
 This project contains Jupyter Notebooks for comparing peak coordinates and signals.
 
 ## Instructions
-
-#### a) Create virtual environment from requirements
-```bash
-python -m venv .venv
-source venv/bin/activate
-pip install -r requirements.txt 
-```
-
-#### b) Load data in convenient folder structure
+#### a) Load data in convenient folder structure
 I recommend loading .bed and .wig files using the following structure
 ```bash
 ChEC_Data/
@@ -21,8 +13,21 @@ ChEC_Data/
 │   └── spikein_mean/
 │       └── sample1_spikein_mean.bed
 ```
-#### c) Run notebooks/compare_coordinates/1_compare_peaks.ipynb
+#### b) Download version controlled repository
+```bash
+git clone https://github.com/plantazja/ChEC_Analysis
+cd ChEC_Analysis
+```
 
-#### d) Run notebooks/compare_signals/2_calculate_signals.ipynb
+#### c) Create virtual environment from requirements.txt
+```bash
+python -m venv .venv
+source venv/bin/activate
+pip install -r requirements.txt 
+```
 
-#### e) Plot signals notebooks/compare_signals/3_heatmaps.ipynb notebooks/compare_signals/3_scatterplot.ipynb
+#### d) Run notebooks/compare_coordinates/1_compare_peaks.ipynb
+
+#### e) Run notebooks/compare_signals/2_calculate_signals.ipynb
+
+#### f) Plot signals notebooks/compare_signals/3_heatmaps.ipynb notebooks/compare_signals/3_scatterplot.ipynb
