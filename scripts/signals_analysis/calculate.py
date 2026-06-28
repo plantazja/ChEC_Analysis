@@ -34,7 +34,6 @@ def get_signals(bed_path, wig_path):
             # Parse variableStep line
             if row[0] == "variableStep":
                 current_chrom = row[1].split("=")[1]
-                print(f"Processing chromosome {current_chrom}..")
                 continue
             
             # Skip if no chromosome set
